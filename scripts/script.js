@@ -13,7 +13,7 @@ marvelApp.init = function () {
     marvelApp.backToTop();
 }
 
-marvelApp.apiKey = '520507c36ce0546fbac236621e58b165';
+marvelApp.apiKey = '550e2aab776d0f40d7f9815108200820';
 
 //------API call for Hero Character---------------------------
 //Have the hero variable from searchHero function as parameter
