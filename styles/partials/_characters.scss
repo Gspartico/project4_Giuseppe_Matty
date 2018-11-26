@@ -1,6 +1,6 @@
 // Section Displayed None ----
 section.character-section {
-    height: 80vh;
+    height: 78vh;
     justify-content: center;
     align-items: center;
     display: none;
@@ -8,7 +8,7 @@ section.character-section {
 // ---------------------------
 
 .character-container {
-    @include body-font(20);
+    @include body-font(2rem);
     line-height: 1.5;
     display: flex;
     align-items: center;
@@ -48,7 +48,7 @@ section.character-section {
     padding: 15px 25px;
     border-radius: 10px;
     color: $main-color;
-    @include body-font(16);
+    @include body-font(1.6rem);
     // @include body-font (1.8rem);
     text-transform: uppercase;
     font-weight: 500;

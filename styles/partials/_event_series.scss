@@ -2,13 +2,11 @@
 .series-section {
     display: none;
     padding: 100px 0 50px 0;
-    // padding: 100px 0 0 0;
 }
 
 .event-section {
     display: none;
     padding: 100px 0 50px 0;
-    // padding: 100px 0 0 0;
 }
 
 // ----------------------------
@@ -26,15 +24,15 @@
     line-height: 1.3;
     display: flex;
     flex-direction: column;
-    max-width: 23%;
+    max-width: calc((100% - 6%) / 4);
     outline-offset: -1px;
     box-shadow: 0 0 5px rgba(150, 150, 150, 0.5);
     border-radius: 8px;
-    margin: 2% 2% 0 0;
+    margin: 2% 2% 0 0; 
     padding: 0 5px;
     transition: all 1s;
     cursor: pointer;
-    &:nth-of-type(4n){
+    &:nth-of-type(4n) {
         margin-right: 0;
     }
     img {

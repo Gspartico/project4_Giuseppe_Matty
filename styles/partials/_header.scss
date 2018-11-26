@@ -1,6 +1,6 @@
 header {
     background: $accent-color;
-    height: 15vh;
+    height: 100px;
     position: fixed;
     width: 100%;
 }
@@ -23,7 +23,7 @@ header {
 
 
 .logo h1 {
-    @include logo-font(20);
+    @include logo-font(2rem);
     margin: 0;
     color: $light-shade;
 }
@@ -31,12 +31,11 @@ header {
 // search-bar input styles ---------------------
 
 .search {
-    margin: 10px;
     display: flex;
 }
 
 .hero {
-    @include body-font(16);
+    @include body-font(1.6rem);
     font-weight: 500;
     border: none;
     padding: 10px 40px;
